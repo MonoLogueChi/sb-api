@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package SbApi.Models.Protos.BiliBili.Pages;
+
+message BiliBiliPages {
+  int32 Code = 1;
+  repeated PagesData Data = 2;
+}
+
+message PagesData {
+  int32 Cid = 1;
+  int32 Page = 2;
+  string Part = 3;
+  int32 Duration = 4;
+  Dimension Dimension = 5;
+
+}
+
+message Dimension {
+  int32 Width = 1;
+  int32 Height = 2;
+  int32 Rotate = 3;
+}

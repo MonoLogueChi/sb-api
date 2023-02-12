@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package SbApi.Models.Protos.Wx;
+
+message SignPackage {
+  string AppId = 1;
+  string NonceStr = 2;
+  int64 Timestamp = 3;
+  string Url = 4;
+  string Signature = 5;
+}
+
+message SignPackageRequest {
+  string Url = 1;
+}
+
+message RedirectRequest {
+  string Url = 1;
+}

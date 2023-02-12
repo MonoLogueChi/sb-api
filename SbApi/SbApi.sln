@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33402.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbApi", "SbApi\SbApi.csproj", "{DB1BB009-681B-4983-AFF0-9F9877FF5AB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1BB009-681B-4983-AFF0-9F9877FF5AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1BB009-681B-4983-AFF0-9F9877FF5AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1BB009-681B-4983-AFF0-9F9877FF5AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1BB009-681B-4983-AFF0-9F9877FF5AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D7A2DA4-C37B-4F23-AA80-902EA2335C36}
+	EndGlobalSection
+EndGlobal
